@@ -40,14 +40,17 @@ input{
 }
 .lgn{
 	font-family: arial black;
-	color: royalblue;
+	color: white;
+
 }
 .lgnbtn{
 	border: none;
+	color: white !important;
 	background-color: royalblue;
-	height: 70px;
+	height: 50px;
 	border-radius: 15px;
-	font-size: 25px;
-	line-height: 30px;
+	font-size: 15px;
+/*	line-height: 30px;*/
 	font-family: arial black;
-}
+	width: 100px;
+	}
