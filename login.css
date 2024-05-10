@@ -1,56 +1,57 @@
 *{
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.main-container{
-	height: 100vh;
-	width: 100%;
-	position: relative;
-	top: 0px;
-	background-image: url("https://cdn.pixabay.com/photo/2021/03/02/13/05/laptop-6062425_1280.jpg");
-	
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-.login-form{
-	height: 500px;
-	width: 500px;
-	padding: 30px;
-	background: transparent;
-	backdrop-filter: blur(20px);
-	position: absolute;
-	top: 25%;
-	right: 350px;
-	border-radius: 50px;
-	box-shadow: -3px -3px 25px lightblue;
-}
-input{
-	width: 90%;
-	margin-top:20px ;
-	height: 60px;
-	border: none;
-	outline: none;
-	background-color: transparent;
-	border-bottom: 3px solid lightblue;
-	color: white;
-	font-size: 20px;
-	padding: 20px;
-}
-.lgn{
-	font-family: arial black;
-	color: white;
 
+.main-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-image: url("student.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+.login-form{
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+    background: transparent;
+    backdrop-filter: blur(7px);
+    position: absolute;
+    top: 10%;
+    right: 400px;
+    border-radius: 50px;
+    box-shadow: -6px -6px 20px whitesmoke;
+}
+
+input{
+    width: 90%;
+    margin-top: 20px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.lgn{
+    font-family: arial black;
+    color: royalblue;
+}
+
 .lgnbtn{
-	border: none;
-	color: white !important;
-	background-color: royalblue;
-	height: 50px;
-	border-radius: 15px;
-	font-size: 15px;
-/*	line-height: 30px;*/
-	font-family: arial black;
-	width: 100px;
-	}
+    border: none;
+    background-color: rayalblue;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: arial black;
+}
+

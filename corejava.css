@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+tr{
+    transition-duration: 0.5s;
+    font-weight: bolder;
+}
+tr:hover{
+    background-color: lightgrey;
+}
+
+.stud-table{
+    margin-top: 150px;
+
+}

@@ -1,29 +1,36 @@
 *{
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
 .data-entry-section{
-	position: fixed;
-	top: 60px;
-	width: 100%;
-	height: 87vh;
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 100vh;
 }
+
 .container-form{
-	width: 80%;
-	margin-left:10% ;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;    
 }
+
 #student-heading{
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
+
 .bgimg1{
-	height: 90vh;
-	width: 100%;
-	z-index: -100;
-	position: absolute;
-	opacity: 0.5;
+    height: 90vh;
+    width: 100%;
+    margin-top: 10px;
+    z-index: -100 !important;
+    position: fixed;
+    opacity: 0.5;
 }
+
 label{
-	font-weight: bolder;
-	font-size: 20px;
+    font-weight: bolder;
+    font-size: 20px;
 }

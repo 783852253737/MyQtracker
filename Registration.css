@@ -1,47 +1,59 @@
 *{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: border-box;
 }
+
 .main-container{
-	height: 100vh;
-	width: 100%;
-	position: absolute;
-	top: 0px;
-	
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
 .registration-form{
-	height: 450px;
-	margin-top: 100px ;
-	width: 800px;
-	position: absolute;
-	padding: 60px;
-	background: transparent;
-	backdrop-filter: blur(10px);
-	border-radius: 50px;
-	color: white;
+    height: 450px;
+    margin-top: 100px;
+    width: 800px;
+    position: absolute;
+    padding: 60px;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    border-radius: 50px;
 }
+
+label{
+    color: white;
+    font-weight: bolder;
+}
+
 .videobg{
-	object-fit: cover;
-	font-weight: bolder;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
 }
+
 .logo{
-	position: absolute;
-	top: -40px;
-	z-index: 1000;
-	margin-left: 25%;
+    position: absolute;
+    top: 10px;
+    z-index: 1000;
+    margin-left: 30%;
 }
+
 .brandname{
-	font-size: 100px;
-	text-shadow: 0px 0px 10px white;
+    font-size:90px;
+    text-shadow: 0px 0px 10px white;
 }
+
 .q{
-	color: orange;
-	font-size: 200px;
+    color: orange;
+    font-size: 120px;
 }
+
 .tracker{
-	font-family: arial black;
+    font-family: arial black;
 }

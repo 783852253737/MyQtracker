@@ -1,12 +1,20 @@
-function checkcred()
- {
+let username1 = document.getElementById("username1");
+let pass = document.getElementById("pass");
 
-			// let sub=document.getElementById("login-form").value;
-			let cnd=true;
-			if (cnd) {
-				open("Home.html");
-			}
-			else{
-				alert("Entered credential are incorrect")
-			}
-		}
+function checkCred()
+{
+    let trackerData  = getTrackerData();
+
+    if((username1.value==trackerData.username) && (pass.value==trackerData.password)){
+        open("homepage.html");
+    }else{
+        alert("WRONG CREDENTIALS")
+    }
+}
+
+function getTrackerData()
+{
+   let trackerInfo =  localStorage.getItem("trackerInfo");
+
+    return JSON.parse(trackerInfo);
+}
